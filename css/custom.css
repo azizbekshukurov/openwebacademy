@@ -12,6 +12,7 @@ footer {
 
 .navbar {
     transition: all .4s ease-in-out;
+    font-size: 18px;
 }
 
 .no-bg {
@@ -47,9 +48,6 @@ footer {
 .fb a:hover {
     color: #3b5998;
 }
-.tw a:hover {
-    color: #1da1f2;
-}
 .yt a:hover {
     color: #ff0000;
 }
@@ -62,9 +60,10 @@ footer {
     height: 50px;
     border: 1px solid rgba(255,255,255,.5);
     bottom: -50px;
-    right: 30px;
+    right: 20px;
     z-index: 999;
     transition: all .4s ease;
+    cursor: pointer;
 }
 
 .back_to_top::after {
@@ -83,17 +82,22 @@ footer {
     bottom: 30px;
 }
 
-#contact_form {
+#message-logo {
     background-color: #000;
     color: #fff;
-    padding: 20px 25px;
+    padding: 13px 18px;
     border-radius: 50%;
     position: fixed;
-    bottom: 180px;
+    bottom: 105px;
     right: 20px;
     z-index: 99;
     cursor: pointer;
-    font-size: 20px;
+    border: 1px solid #fff;
+}
+.sss {
+    margin: 0 0 0 240px;
+    cursor: pointer;
+    font-size: 22px;
 }
 .contact_form {
     background-color: rgb(77, 76, 76);
